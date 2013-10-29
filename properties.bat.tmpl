@@ -1,0 +1,13 @@
+@echo off
+
+set flex_sdk=C:\PATH_TO_FLEX_SDK_WITHOUT_LAST_BACKSLASH
+set flex_bin=%flex_sdk%\bin
+
+set debug=false
+set logging=false
+
+set build_dir=build
+
+if not exist "%build_dir%" (
+	mkdir "%build_dir%"
+)

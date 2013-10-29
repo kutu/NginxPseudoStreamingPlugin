@@ -1,0 +1,11 @@
+# FlashBuilder
+.settings
+.actionScriptProperties
+.flexLibProperties
+.project
+bin
+libs
+
+# NginxPseudoStreamingPlugin
+build
+properties.bat
